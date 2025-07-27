@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      div{
+        margin: 0 auto;
+        padding: 20px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
+      }
+      input {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        width: 200px;;
+      }
+    </style>
+  </head>
+  <body align="center">
+    <div  style="background-color: whitesmoke; height: 500px;" class="center">
+    <h1>Login</h1>
+    <form action="/login" method="post">
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <div class="pass">ForgetPassword</div>
+      <input type="submit" value="Login" />
+      </div>
+  </body>
+</html>
